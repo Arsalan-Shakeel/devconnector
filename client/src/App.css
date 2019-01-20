@@ -1,39 +1,164 @@
 img {
-  width: 100%;
+	width: 100%;
 }
 
 .landing {
-  position: relative;
-  background: url('./img/showcase.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  margin-top: -24px;
-  margin-bottom: -50px;
+	position: relative;
+	background: url('./img/showcase.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin-top: -24px;
+	margin-bottom: -50px;
 }
 
 .landing-inner {
-  padding-top: 80px;
+	padding-top: 80px;
 }
 
-.dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.dark-overlay-old {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .card-form {
-  opacity: 0.9;
+	opacity: 0.9;
 }
 
 .latest-profiles-img {
-  width: 40px;
-  height: 40px;
+	width: 40px;
+	height: 40px;
 }
 
 .form-control::placeholder {
-  color: #bbb !important;
+	color: #bbb !important;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.navbar .nav-link {
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+}
+
+.navbar .nav-item:hover {
+	background-color: rgb(250, 250, 221);
+}
+
+.navbar .nav-item.active {
+	background-color: rgb(240, 239, 239);
+}
+
+.btn-default {
+	background-color: #ffffff;
+	border-color: gainsboro;
+	color: gainsboro;
+}
+
+.login-area {
+	background-color: rgba(238, 20, 111, 0.685);
+}
+
+hr.hr-styling {
+	border: 0.5px solid rgba(238, 20, 111, 0.685);
+}
+
+.btn-default:hover {
+	background-color: rgb(250, 250, 221);
+	border-color: #ffbbbc;
+	color: rgba(238, 20, 111, 0.685);
+}
+
+.carousel-item {
+	height: 300px;
+}
+
+.carousel-image-1 {
+	background: url('./img/logo-1.png');
+	background-size: cover;
+}
+
+.carousel-image-2 {
+	background: url('./img/logo-1.png');
+	background-size: cover;
+}
+
+.carousel-image-3 {
+	background: url('./img/logo-1.png');
+	background-size: cover;
+}
+
+#home-heading {
+	position: relative;
+	min-height: 200px;
+	background: url('./img/showcase.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: rgba(238, 20, 111, 0.685);
+}
+
+.dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 239, 14, 0.281);
+}
+
+#video-play {
+	position: relative;
+	min-height: 200px;
+	background: url('./img/showcase.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 0 -300px;
+	text-align: center;
+	color: #fff;
+}
+
+#video-play a {
+	color: #fff;
+}
+
+#page-header {
+	height: 200px;
+	background: url('./img/logo-1.png');
+	background-position: 0 -360px;
+	background-attachment: fixed;
+	color: #fff;
+	border-bottom: 1px #eee solid;
+	padding-top: 50px;
+}
+
+.about-img {
+	margin-top: -50px;
+}
+
+#faq .card {
+	border: #444;
+}
+
+#faq a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+	background: #333;
+}
+
+#main-footer {
+	background: #fff;
+	color: rgba(238, 20, 111, 0.685);
 }
