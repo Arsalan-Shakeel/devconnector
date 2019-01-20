@@ -79,7 +79,9 @@ class Navbar extends Component {
 							style={{ width: '50px', marginRight: '1px' }}
 							title="D4Styles"
 						/>{' '}
-						<strong> Your Design Destination!</strong>
+						<small>
+							<i> Your Design Destination!</i>
+						</small>
 					</Link>
 					<button
 						className="navbar-toggler"
