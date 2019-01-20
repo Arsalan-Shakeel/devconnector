@@ -8,6 +8,7 @@ export default () => {
 			style={{
 				color: '#696969',
 				backgroundColor: '#ffe4e1',
+				fontFamily: 'PT Serif',
 			}}
 		>
 			<hr className="hr-styling" />

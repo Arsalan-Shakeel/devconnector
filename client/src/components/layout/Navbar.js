@@ -76,7 +76,11 @@ class Navbar extends Component {
 			//<nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
 			<nav className="navbar navbar-expand-lg mb-4" style={{ backgroundColor: '#ffe4e1' }}>
 				<div className="container">
-					<Link className="navbar-brand text-monospace" style={{ color: '#696969', fontSize: '14px' }} to="/">
+					<Link
+						className="navbar-brand text-monospace"
+						style={{ color: '#696969', fontSize: '14px', fontFamily: 'Courgette' }}
+						to="/"
+					>
 						<img
 							className="rounded-circle"
 							src={d4stylesLogo}
@@ -84,9 +88,7 @@ class Navbar extends Component {
 							style={{ width: '50px', marginRight: '1px' }}
 							title="D4Styles"
 						/>{' '}
-						<strong>
-							<i>Your Design Destination!</i>
-						</strong>
+						<strong>Your Style Factory!</strong>
 					</Link>
 					<button
 						className="navbar-toggler"
