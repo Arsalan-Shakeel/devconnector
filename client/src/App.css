@@ -49,13 +49,19 @@ body {
 	padding-right: 1rem !important;
 }
 
+/*
+This is working code
 .navbar .nav-item:hover {
 	background-color: rgb(250, 250, 221);
 }
+*/
 
+/*
+This is working code
 .navbar .nav-item.active {
 	background-color: rgb(240, 239, 239);
 }
+*/
 
 .btn-default {
 	background-color: #ffffff;

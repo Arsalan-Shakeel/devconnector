@@ -56,11 +56,10 @@ class Login extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-4 m-auto">
-							<h1 className="display-9 text-center">Log In</h1>
 							<form className="form-control form-control-sm" onSubmit={this.onSubmit}>
 								<TextFieldGroup
 									className="form-control form-control-sm"
-									placeholder="Email Address"
+									placeholder="E-mail"
 									name="email"
 									type="email"
 									value={this.state.email}
@@ -76,7 +75,17 @@ class Login extends Component {
 									onChange={this.onChange}
 									error={errors.password}
 								/>
-								<input type="submit" className="btn btn-default btn-block mt-2" />
+								<button
+									className="btn btn-light btn-block my-2 my-sm-0"
+									type="submit"
+									style={{ color: '#000' }}
+								>
+									<i
+										className="fas fa-sign-in-alt fa-1x"
+										style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+									/>{' '}
+									<small>LOGIN</small>
+								</button>
 							</form>
 						</div>
 					</div>

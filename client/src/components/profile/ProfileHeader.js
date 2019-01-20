@@ -8,7 +8,7 @@ class ProfileHeader extends Component {
 		return (
 			<div className="row">
 				<div className="col-md-12 m-auto">
-					<div className="card card-body bg-secondary mb-3" style={{ color: '#fff' }}>
+					<div className="card card-body  mb-3" style={{ color: '#fff', backgroundColor: '#b0c4de' }}>
 						<div className="row">
 							<div className="col-4 col-md-3 m-auto">
 								<img className="rounded-circle" src={profile.user.avatar} alt="" />
@@ -23,7 +23,10 @@ class ProfileHeader extends Component {
 							<p>
 								{isEmpty(profile.website) ? null : (
 									<a className="text-white p-2" href={profile.website} target="_blank">
-										<i className="fas fa-globe fa-2x" style={{ color: '#fff' }} />
+										<i
+											className="fas fa-globe fa-2x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>
 									</a>
 								)}
 

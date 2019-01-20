@@ -17,7 +17,7 @@ class Navbar extends Component {
 		const { isAuthenticated, user } = this.props.auth;
 
 		const homeLink = (
-			<li className="nav-item active">
+			<li className="nav-item btn-light">
 				<Link className="nav-link" to="/profiles">
 					<i className="fas fa-home fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 					<strong>Home</strong>
@@ -28,19 +28,19 @@ class Navbar extends Component {
 		const authLinks = (
 			<ul className="navbar-nav ml-auto">
 				{homeLink}
-				<li className="nav-item">
+				<li className="nav-item btn-light">
 					<Link className="nav-link" to="/dashboard">
 						<i className="fas fa-binoculars fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Explore</strong>
 					</Link>
 				</li>
-				<li className="nav-item">
+				<li className="nav-item btn-light">
 					<Link className="nav-link" to="/feed">
 						<i className="fas fa-cart-plus fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Buy</strong>
 					</Link>
 				</li>
-				<li className="nav-item">
+				<li className="nav-item btn-light">
 					<a href="" onClick={this.onLogoutClick.bind(this)} className="nav-link">
 						<i className="fas fa-sign-out-alt fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Logout</strong>
@@ -52,13 +52,13 @@ class Navbar extends Component {
 		const guestLinks = (
 			<ul className="navbar-nav ml-auto">
 				{homeLink}
-				<li className="nav-item">
+				<li className="nav-item btn-light">
 					<Link className="nav-link" to="/register">
 						<i className="fas fa-user-plus fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Register</strong>
 					</Link>
 				</li>
-				<li className="nav-item">
+				<li className="nav-item btn-light">
 					<Link className="nav-link" to="/login">
 						<i className="fas fa-sign-in-alt fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Login</strong>

@@ -19,7 +19,7 @@ class ProfileAbout extends Component {
 		return (
 			<div className="row">
 				<div className="col-md-12">
-					<div className="card card-body bg-secondary mb-3" style={{ color: '#fff' }}>
+					<div className="card card-body mb-3" style={{ color: '#fff', backgroundColor: '#696969' }}>
 						<h3 className="text-center">{firstName}'s Bio</h3>
 						<p className="lead">
 							{isEmpty(profile.bio) ? (

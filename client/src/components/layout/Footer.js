@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
 	return (
-		<footer id="main-footer" className="text-center p-4">
+		<footer id="main-footer" className="text-center bg-light">
 			<hr className="hr-styling" />
 			<div clasName="container">
 				<div className="row">
