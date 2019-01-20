@@ -56,9 +56,9 @@ class Login extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-4 m-auto">
-							<form className="form-control form-control-sm" onSubmit={this.onSubmit}>
+							<form className="form-control form-control-lg" onSubmit={this.onSubmit}>
 								<TextFieldGroup
-									className="form-control form-control-sm"
+									className="form-control-sm"
 									placeholder="E-mail"
 									name="email"
 									type="email"
@@ -67,7 +67,7 @@ class Login extends Component {
 									error={errors.email}
 								/>
 								<TextFieldGroup
-									className="form-control form-control-sm"
+									className="form-control-sm"
 									placeholder="Password"
 									name="password"
 									type="password"
@@ -76,17 +76,33 @@ class Login extends Component {
 									error={errors.password}
 								/>
 								<button
-									className="btn btn-light btn-block my-2 my-sm-0"
+									className="btn btn-light btn-block my-2 my-sm-0 text-uppercase text-monospace"
 									type="submit"
-									style={{ color: '#000' }}
+									style={{ color: '#696969', backgroundColor: '#ffe4e1', fontSize: '14px' }}
 								>
 									<i
 										className="fas fa-sign-in-alt fa-1x"
 										style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 									/>{' '}
-									<small>LOGIN</small>
+									<strong>Login</strong>
 								</button>
 							</form>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-md-12 m-auto">
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
 						</div>
 					</div>
 				</div>

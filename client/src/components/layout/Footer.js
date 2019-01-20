@@ -2,7 +2,14 @@ import React from 'react';
 
 export default () => {
 	return (
-		<footer id="main-footer" className="text-center bg-light">
+		<footer
+			id="main-footer"
+			className="text-center text-monospace"
+			style={{
+				color: '#696969',
+				backgroundColor: '#ffe4e1',
+			}}
+		>
 			<hr className="hr-styling" />
 			<div clasName="container">
 				<div className="row">

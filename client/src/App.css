@@ -43,25 +43,40 @@ body {
 }
 
 .navbar .nav-link {
-	font-size: 15px;
+	font-size: 14px;
 	text-transform: uppercase;
 	padding-left: 1rem !important;
 	padding-right: 1rem !important;
 }
 
-/*
-This is working code
 .navbar .nav-item:hover {
-	background-color: rgb(250, 250, 221);
+	font-size: 16px !important;
+	background-color: rgb(95, 95, 86);
+	color: #fff;
 }
-*/
 
-/*
-This is working code
+::-webkit-input-placeholder {
+	font-size: 14px;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	font-size: 14px;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	font-size: 14px;
+}
+
+:-ms-input-placeholder {
+	font-size: 14px;
+}
+
 .navbar .nav-item.active {
 	background-color: rgb(240, 239, 239);
+	color: #fff;
 }
-*/
 
 .btn-default {
 	background-color: #ffffff;
