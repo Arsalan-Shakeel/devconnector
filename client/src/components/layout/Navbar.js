@@ -104,9 +104,6 @@ class Navbar extends Component {
 							placeholder="Search"
 							aria-label="Search"
 						/>
-						<button className="btn btn-default my-2 my-sm-0" type="submit">
-							<i className="fas fa-search fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />
-						</button>
 					</form>
 				</div>
 			</nav>
