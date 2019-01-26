@@ -23,40 +23,24 @@ class ProfileAbout extends Component {
 						<div className="card-header" style={{ backgroundColor: '#ffe4e1' }}>
 							<ul className="nav nav-pills card-header-pills">
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-									<a
-										className="nav-link text-monospace"
-										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
-										href="#"
-									>
-										Front
+									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+										<strong>Front</strong>
 									</a>
 								</li>
 
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-									<a
-										className="nav-link text-monospace"
-										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
-										href="#"
-									>
-										Back
+									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+										<strong>Back</strong>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-									<a
-										className="nav-link text-monospace"
-										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
-										href="#"
-									>
-										Right
+									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+										<strong>Right</strong>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-									<a
-										className="nav-link text-monospace"
-										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
-										href="#"
-									>
-										Left
+									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+										<strong>Left</strong>
 									</a>
 								</li>
 							</ul>
