@@ -25,13 +25,9 @@ class ProfileAbout extends Component {
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 									<a
 										className="nav-link text-monospace"
-										style={{ color: '#696969', fontFamily: 'Nova Mono', fontSize: '12px' }}
+										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
 										href="#"
 									>
-										<i
-											className="fas fa-dice-one fa-1x"
-											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
-										/>{' '}
 										<strong>Front</strong>
 									</a>
 								</li>
@@ -39,39 +35,27 @@ class ProfileAbout extends Component {
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 									<a
 										className="nav-link text-monospace"
-										style={{ color: '#696969', fontFamily: 'Nova Mono', fontSize: '12px' }}
+										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
 										href="#"
 									>
-										<i
-											className="fas fa-dice-one fa-1x"
-											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
-										/>{' '}
 										<strong>Back</strong>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 									<a
 										className="nav-link text-monospace"
-										style={{ color: '#696969', fontFamily: 'Nova Mono', fontSize: '12px' }}
+										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
 										href="#"
 									>
-										<i
-											className="fas fa-dice-one fa-1x"
-											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
-										/>{' '}
 										<strong>Right</strong>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 									<a
 										className="nav-link text-monospace"
-										style={{ color: '#696969', fontFamily: 'Nova Mono', fontSize: '12px' }}
+										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
 										href="#"
 									>
-										<i
-											className="fas fa-dice-one fa-1x"
-											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
-										/>{' '}
 										<strong>Left</strong>
 									</a>
 								</li>
