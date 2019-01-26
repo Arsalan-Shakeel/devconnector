@@ -19,19 +19,64 @@ class ProfileAbout extends Component {
 		return (
 			<div className="row">
 				<div className="col-md-12">
-					<div className="card card-body mb-3" style={{ color: '#fff', backgroundColor: '#696969' }}>
-						<h3 className="text-center">{firstName}'s Bio</h3>
-						<p className="lead">
-							{isEmpty(profile.bio) ? (
-								<span>{firstName} does not have a bio</span>
-							) : (
-								<span>{profile.bio}</span>
-							)}
-						</p>
-						<hr className="hr-styling" />
-						<h3 className="text-center">Skill Set</h3>
-						<div className="row">
-							<div className="d-flex flex-wrap justify-content-center align-items-center">{skills}</div>
+					<div className="card">
+						<div className="card-header" style={{ backgroundColor: '#ffe4e1' }}>
+							<ul className="nav nav-pills card-header-pills">
+								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
+									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+										<i
+											className="fas fa-caret-square-down fa-1x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>{' '}
+										<strong>Front</strong>
+									</a>
+								</li>
+
+								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
+									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+										<i
+											className="fas fa-caret-square-up fa-1x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>{' '}
+										<strong>Back</strong>
+									</a>
+								</li>
+								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
+									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+										<i
+											className="fas fa-caret-square-right fa-1x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>{' '}
+										<strong>Right</strong>
+									</a>
+								</li>
+								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
+									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+										<i
+											className="fas fa-caret-square-left fa-1x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>{' '}
+										<strong>Left</strong>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div className="card-body mb-3 bg-transparent" style={{ color: '#696969' }}>
+							<h3 className="text-center">{firstName}'s Bio</h3>
+							<p className="lead">
+								{isEmpty(profile.bio) ? (
+									<span>{firstName} does not have a bio</span>
+								) : (
+									<span>{profile.bio}</span>
+								)}
+							</p>
+							<hr className="hr-styling" />
+							<h3 className="text-center">Skill Set</h3>
+							<div className="row">
+								<div className="d-flex flex-wrap justify-content-center align-items-center">
+									{skills}
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -39,6 +84,26 @@ class ProfileAbout extends Component {
 		);
 	}
 }
+
+<div class="card-header">
+	<ul class="nav nav-pills card-header-pills">
+		<li class="nav-item">
+			<a class="nav-link active" href="#">
+				Active
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">
+				Link
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+				Disabled
+			</a>
+		</li>
+	</ul>
+</div>;
 
 ProfileAbout.propTypes = {
 	profile: PropTypes.object.isRequired,

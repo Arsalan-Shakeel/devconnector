@@ -17,7 +17,7 @@ class Navbar extends Component {
 		const { isAuthenticated, user } = this.props.auth;
 
 		const homeLink = (
-			<li className="nav-item btn-light" style={{ backgroundColor: '#ffe4e1' }}>
+			<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 				<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/profiles">
 					<i className="fas fa-home fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 					<strong>Home</strong>
@@ -28,7 +28,7 @@ class Navbar extends Component {
 		const authLinks = (
 			<ul className="navbar-nav ml-auto">
 				{homeLink}
-				<li className="nav-item btn-light" style={{ backgroundColor: '#ffe4e1' }}>
+				<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 					<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/dashboard">
 						<i className="fas fa-binoculars fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Explore</strong>
@@ -40,7 +40,7 @@ class Navbar extends Component {
 						<strong>Buy</strong>
 					</Link>
 				</li>
-				<li className="nav-item btn-light" style={{ backgroundColor: '#ffe4e1' }}>
+				<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 					<a
 						href=""
 						onClick={this.onLogoutClick.bind(this)}
@@ -57,13 +57,13 @@ class Navbar extends Component {
 		const guestLinks = (
 			<ul className="navbar-nav ml-auto">
 				{homeLink}
-				<li className="nav-item btn-light" style={{ backgroundColor: '#ffe4e1' }}>
+				<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 					<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/register">
 						<i className="fas fa-user-plus fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Register</strong>
 					</Link>
 				</li>
-				<li className="nav-item btn-light" style={{ backgroundColor: '#ffe4e1' }}>
+				<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 					<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/login">
 						<i className="fas fa-sign-in-alt fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Login</strong>
@@ -78,7 +78,7 @@ class Navbar extends Component {
 				<div className="container">
 					<Link
 						className="navbar-brand text-monospace"
-						style={{ color: '#696969', fontSize: '14px', fontFamily: 'Courgette' }}
+						style={{ color: '#696969', fontSize: '15px', fontFamily: 'Courgette' }}
 						to="/"
 					>
 						<img
@@ -87,7 +87,8 @@ class Navbar extends Component {
 							alt={'Logo'}
 							style={{ width: '50px', marginRight: '1px' }}
 							title="D4Styles"
-						/>{' '}
+						/>
+						{'   '}
 						<strong>Your Style Factory!</strong>
 					</Link>
 					<button
