@@ -55,9 +55,6 @@ body {
 	background-color: #fdd4cf;
 }
 
-.by-mypink {
-	background-color: #fdd4cf;
-}
 .nav-pills .nav-link {
 	font-size: 14px;
 	text-transform: uppercase;
@@ -117,21 +114,6 @@ hr.hr-styling {
 	height: 300px;
 }
 
-.carousel-image-1 {
-	background: url('./img/logo-1.png');
-	background-size: cover;
-}
-
-.carousel-image-2 {
-	background: url('./img/logo-1.png');
-	background-size: cover;
-}
-
-.carousel-image-3 {
-	background: url('./img/logo-1.png');
-	background-size: cover;
-}
-
 #home-heading {
 	position: relative;
 	min-height: 200px;
@@ -168,16 +150,6 @@ hr.hr-styling {
 
 #video-play a {
 	color: #fff;
-}
-
-#page-header {
-	height: 200px;
-	background: url('./img/logo-1.png');
-	background-position: 0 -360px;
-	background-attachment: fixed;
-	color: #fff;
-	border-bottom: 1px #eee solid;
-	padding-top: 50px;
 }
 
 .about-img {
