@@ -23,9 +23,13 @@ class ProfileAbout extends Component {
 						<div className="card-header" style={{ backgroundColor: '#ffe4e1' }}>
 							<ul className="nav nav-pills card-header-pills">
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+									<a
+										className="nav-link text-monospace"
+										style={{ color: '#696969', fontFamily: 'Nova Mono', fontSize: '12px' }}
+										href="#"
+									>
 										<i
-											className="fas fa-caret-square-down fa-1x"
+											className="fas fa-dice-one fa-1x"
 											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 										/>{' '}
 										<strong>Front</strong>
@@ -33,27 +37,39 @@ class ProfileAbout extends Component {
 								</li>
 
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+									<a
+										className="nav-link text-monospace"
+										style={{ color: '#696969', fontFamily: 'Nova Mono', fontSize: '12px' }}
+										href="#"
+									>
 										<i
-											className="fas fa-caret-square-up fa-1x"
+											className="fas fa-dice-one fa-1x"
 											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 										/>{' '}
 										<strong>Back</strong>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+									<a
+										className="nav-link text-monospace"
+										style={{ color: '#696969', fontFamily: 'Nova Mono', fontSize: '12px' }}
+										href="#"
+									>
 										<i
-											className="fas fa-caret-square-right fa-1x"
+											className="fas fa-dice-one fa-1x"
 											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 										/>{' '}
 										<strong>Right</strong>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-									<a className="nav-link text-monospace" style={{ color: '#696969' }} href="#">
+									<a
+										className="nav-link text-monospace"
+										style={{ color: '#696969', fontFamily: 'Nova Mono', fontSize: '12px' }}
+										href="#"
+									>
 										<i
-											className="fas fa-caret-square-left fa-1x"
+											className="fas fa-dice-one fa-1x"
 											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 										/>{' '}
 										<strong>Left</strong>

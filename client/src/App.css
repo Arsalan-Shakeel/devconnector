@@ -58,14 +58,6 @@ body {
 .nav-pills .nav-link {
 	font-size: 14px;
 	text-transform: uppercase;
-	padding-left: 1rem !important;
-	padding-right: 1rem !important;
-}
-
-.nav-pills .nav-link:active > a {
-	font-size: 14px;
-	text-transform: uppercase;
-	background-color: #fdd4cf;
 }
 
 .nav-pills .nav-link:hover {
