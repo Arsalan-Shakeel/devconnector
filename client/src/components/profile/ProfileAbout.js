@@ -42,7 +42,11 @@ class ProfileAbout extends Component {
 										aria-controls="front"
 										aria-selected="true"
 									>
-										<strong>Front</strong>
+										<strong>Front</strong>{' '}
+										<i
+											className="fas fa-caret-down fa-1x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
@@ -56,7 +60,11 @@ class ProfileAbout extends Component {
 										aria-controls="back"
 										aria-selected="true"
 									>
-										<strong>Back</strong>
+										<strong>Back</strong>{' '}
+										<i
+											className="fas fa-caret-down fa-1x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
@@ -70,7 +78,11 @@ class ProfileAbout extends Component {
 										aria-controls="right"
 										aria-selected="true"
 									>
-										<strong>Right</strong>
+										<strong>Right</strong>{' '}
+										<i
+											className="fas fa-caret-down fa-1x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
@@ -84,7 +96,11 @@ class ProfileAbout extends Component {
 										aria-controls="left"
 										aria-selected="true"
 									>
-										<strong>Left</strong>
+										<strong>Left</strong>{' '}
+										<i
+											className="fas fa-caret-down fa-1x"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>
 									</a>
 								</li>
 							</ul>
