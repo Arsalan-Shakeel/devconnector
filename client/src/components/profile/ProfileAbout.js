@@ -28,7 +28,7 @@ class ProfileAbout extends Component {
 										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
 										href="#"
 									>
-										<strong>Front</strong>
+										Front
 									</a>
 								</li>
 
@@ -38,7 +38,7 @@ class ProfileAbout extends Component {
 										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
 										href="#"
 									>
-										<strong>Back</strong>
+										Back
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
@@ -47,7 +47,7 @@ class ProfileAbout extends Component {
 										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
 										href="#"
 									>
-										<strong>Right</strong>
+										Right
 									</a>
 								</li>
 								<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
@@ -56,7 +56,7 @@ class ProfileAbout extends Component {
 										style={{ color: '#696969', fontFamily: 'ZCOOL KuaiLe' }}
 										href="#"
 									>
-										<strong>Left</strong>
+										Left
 									</a>
 								</li>
 							</ul>
