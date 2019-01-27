@@ -177,7 +177,11 @@ class ProfileAbout extends Component {
 											aria-controls="front"
 											aria-selected="true"
 										>
-											<strong>Front</strong>{' '}
+											<i
+												className="fas fa-angle-double-down fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>{' '}
+											<strong>1</strong>{' '}
 											<i
 												className="fas fa-angle-double-down fa-1x"
 												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
@@ -195,7 +199,11 @@ class ProfileAbout extends Component {
 											aria-controls="back"
 											aria-selected="true"
 										>
-											<strong>Back</strong>{' '}
+											<i
+												className="fas fa-angle-double-down fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>{' '}
+											<strong>2</strong>{' '}
 											<i
 												className="fas fa-angle-double-down fa-1x"
 												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
@@ -213,7 +221,11 @@ class ProfileAbout extends Component {
 											aria-controls="right"
 											aria-selected="true"
 										>
-											<strong>Right</strong>{' '}
+											<i
+												className="fas fa-angle-double-down fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>{' '}
+											<strong>3</strong>{' '}
 											<i
 												className="fas fa-angle-double-down fa-1x"
 												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
@@ -223,7 +235,7 @@ class ProfileAbout extends Component {
 									<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
 										<a
 											className="nav-link text-monospace bg-transparent"
-											style={{ color: '#696969', fontSize: '13px' }}
+											style={{ color: '#696969', fontSize: '14px' }}
 											id="left-tab"
 											data-toggle="tab"
 											href="#left2"
@@ -231,7 +243,11 @@ class ProfileAbout extends Component {
 											aria-controls="left"
 											aria-selected="true"
 										>
-											<strong>Left</strong>{' '}
+											<i
+												className="fas fa-angle-double-down fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>{' '}
+											<strong>4</strong>{' '}
 											<i
 												className="fas fa-angle-double-down fa-1x"
 												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
