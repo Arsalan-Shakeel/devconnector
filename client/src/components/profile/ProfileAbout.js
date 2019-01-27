@@ -181,11 +181,7 @@ class ProfileAbout extends Component {
 												className="fas fa-angle-double-down fa-1x"
 												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 											/>{' '}
-											<strong>1</strong>{' '}
-											<i
-												className="fas fa-angle-double-down fa-1x"
-												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
-											/>
+											<strong>1</strong>
 										</a>
 									</li>
 									<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
@@ -203,11 +199,7 @@ class ProfileAbout extends Component {
 												className="fas fa-angle-double-down fa-1x"
 												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 											/>{' '}
-											<strong>2</strong>{' '}
-											<i
-												className="fas fa-angle-double-down fa-1x"
-												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
-											/>
+											<strong>2</strong>
 										</a>
 									</li>
 									<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
@@ -225,11 +217,7 @@ class ProfileAbout extends Component {
 												className="fas fa-angle-double-down fa-1x"
 												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 											/>{' '}
-											<strong>3</strong>{' '}
-											<i
-												className="fas fa-angle-double-down fa-1x"
-												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
-											/>
+											<strong>3</strong>
 										</a>
 									</li>
 									<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
@@ -247,11 +235,7 @@ class ProfileAbout extends Component {
 												className="fas fa-angle-double-down fa-1x"
 												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
 											/>{' '}
-											<strong>4</strong>{' '}
-											<i
-												className="fas fa-angle-double-down fa-1x"
-												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
-											/>
+											<strong>4</strong>
 										</a>
 									</li>
 								</ul>
