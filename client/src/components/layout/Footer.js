@@ -8,7 +8,7 @@ export default () => {
 			style={{
 				color: '#696969',
 				backgroundColor: '#ffe4e1',
-				fontFamily: 'PT Serif',
+				fontFamily: 'IBM Plex Mono',
 			}}
 		>
 			<hr className="hr-styling" />

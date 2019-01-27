@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import isEmpty from '../../validation/is-empty';
 import myImg1 from '../../img/001.png';
@@ -23,7 +24,7 @@ class ProfileAbout extends Component {
 		return (
 			<div class="container">
 				<div className="row">
-					<div className="col-md-4 m-0 p-0">
+					<div className="col-md-4 m-0 p-1">
 						<div className="card d-block">
 							<div className="card-header" style={{ backgroundColor: '#ffe4e1' }}>
 								<ul className="nav nav-pills card-header-pills" id="myTab1" role="tablist">
@@ -109,7 +110,7 @@ class ProfileAbout extends Component {
 									role="tabpanel"
 									aria-labelledby="home-tab"
 								>
-									<img className="card-image-top" src={myImg1} alt={'Logo'} title="D4Styles" />
+									<img className="card-image-top" src={myImg4} alt={'Logo'} title="D4Styles" />
 									<p className="m-0 p-0" style={{ color: '#000' }}>
 										{' '}
 										This is some design. This elegant piece of fabric can be your for only $350.
@@ -151,7 +152,7 @@ class ProfileAbout extends Component {
 									role="tabpane4"
 									aria-labelledby="profile-tab"
 								>
-									<img className="card-image-top" src={myImg4} alt={'Logo'} title="D4Styles" />
+									<img className="card-image-top" src={myImg1} alt={'Logo'} title="D4Styles" />
 									<p className="m-0 p-0" style={{ color: '#000' }}>
 										{' '}
 										This is some design. This elegant piece of fabric can be your for only $350.
@@ -161,7 +162,7 @@ class ProfileAbout extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-4 m-0 p-0">
+					<div className="col-md-4 m-0 p-1">
 						<div className="card d-block">
 							<div className="card-header" style={{ backgroundColor: '#ffe4e1' }}>
 								<ul className="nav nav-pills card-header-pills" id="myTab2" role="tablist">
@@ -241,45 +242,212 @@ class ProfileAbout extends Component {
 							</div>
 							<div class="tab-content bg-transparent" id="myTabContent">
 								<div
-									className="card-body tab-pane mb-3 active"
+									className="card-body tab-pane m-0 p-0 active"
 									style={{ color: '#696969' }}
 									id="front2"
 									role="tabpanel"
-									aria-labelledby="home-tab"
+									aria-labelledby="front-tab"
 								>
-									<h3 className="text-center">Front</h3>
+									<img className="card-image-top" src={myImg4} alt={'Logo'} title="D4Styles" />
+									<p
+										className="text-center mx-2 my-1 p-0"
+										style={{ color: '#696969', fontFamily: 'Merienda' }}
+									>
+										This is some creative design work! This elegant piece of fabric is just a few
+										clicks away from you.
+									</p>
+									<p
+										className="text-center mb-2 p-0"
+										style={{ color: '#000', fontFamily: 'IBM Plex Mono' }}
+									>
+										<Link to="/profiles">
+											<i
+												className="fas fa-cart-plus fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+										</Link>{' '}
+										US$:350.00{' '}
+										<Link to="/profiles">
+											<i
+												className="fas fa-cart-plus fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+										</Link>
+									</p>
 								</div>
 								<div
-									className="card-body tab-pane mb-3"
+									className="card-body tab-pane m-0 p-0"
 									style={{ color: '#696969' }}
 									id="back2"
 									role="tabpane2"
-									aria-labelledby="profile-tab"
+									aria-labelledby="back-tab"
 								>
-									<h3 className="text-center">Back</h3>
+									<img className="card-image-top" src={myImg4} alt={'Logo'} title="D4Styles" />
+									<p className="mx-1 my-1 p-0 text-center text-monospace" style={{ color: '#000' }}>
+										<small>
+											Fabric
+											<i
+												class="fas fa-ellipsis-h fa-1x m-0"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+											Silk
+										</small>
+									</p>
+									<p className="mx-1 my-1 p-0 text-center text-monospace" style={{ color: '#000' }}>
+										<small>
+											Color
+											<i
+												class="fas fa-ellipsis-h fa-1x m-0"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+											Golden
+										</small>
+									</p>
+									<p className="mx-1 my-1 p-0 text-center text-monospace" style={{ color: '#000' }}>
+										<small>
+											Design
+											<i
+												class="fas fa-ellipsis-h fa-1x m-0"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+											Kamdani
+										</small>
+									</p>
+									<p
+										className="text-center mb-2 p-0"
+										style={{ color: '#000', fontFamily: 'IBM Plex Mono' }}
+									>
+										<Link to="/profiles">
+											<i
+												className="fas fa-cart-plus fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+										</Link>{' '}
+										US$:350.00{' '}
+										<Link to="/profiles">
+											<i
+												className="fas fa-cart-plus fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+										</Link>
+									</p>
 								</div>
 								<div
-									className="card-body tab-pane mb-3"
+									className="card-body tab-pane m-0 p-0"
 									style={{ color: '#696969' }}
 									id="right2"
 									role="tabpane3"
-									aria-labelledby="profile-tab"
+									aria-labelledby="right-tab"
 								>
-									<h3 className="text-center">Right</h3>
+									<img className="card-image-top" src={myImg4} alt={'Logo'} title="D4Styles" />
+
+									<p className="mx-1 my-1 p-0 text-monospace" style={{ color: '#000' }}>
+										<i
+											class="fas fa-ellipsis-h fa-1x m-0"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>
+										<small>Availability:In-stock</small>{' '}
+										<i
+											class="fas fa-ellipsis-h fa-1x m-0"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>
+										<small>Customizable:Yes</small>{' '}
+										<i
+											class="fas fa-ellipsis-h fa-1x m-0"
+											style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+										/>
+										<small>Shipping:4 weeks</small>{' '}
+									</p>
+									<p
+										className="text-center mb-2 p-0"
+										style={{ color: '#000', fontFamily: 'IBM Plex Mono' }}
+									>
+										<Link to="/profiles">
+											<i
+												className="fas fa-cart-plus fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+										</Link>{' '}
+										US$:350.00{' '}
+										<Link to="/profiles">
+											<i
+												className="fas fa-cart-plus fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+										</Link>
+									</p>
 								</div>
 								<div
-									className="card-body tab-pane mb-3"
+									className="card-body tab-pane m-0 p-0"
 									style={{ color: '#696969' }}
 									id="left2"
 									role="tabpane4"
-									aria-labelledby="profile-tab"
+									aria-labelledby="left-tab"
 								>
-									<h3 className="text-center">Left</h3>
+									<img className="card-image-top" src={myImg4} alt={'Logo'} title="D4Styles" />
+									<p
+										className="text-center mx-2 my-1 p-0"
+										style={{ color: '#696969', fontFamily: 'IBM Plex Mono', fontSize: '14px' }}
+									>
+										<table className="table table-bordered">
+											<tbody>
+												<tr>
+													<td scope="row">
+														<i
+															class="fas fa-ellipsis-h fa-1x m-0"
+															style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+														/>
+													</td>
+													<td>Fabric</td>
+													<td>Silk</td>
+												</tr>
+												<tr>
+													<td scope="row">
+														<i
+															class="fas fa-ellipsis-v fa-1x m-0"
+															style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+														/>
+													</td>
+													<td>Color</td>
+													<td>Golden</td>
+												</tr>
+												<tr>
+													<td scope="row">
+														<i
+															class="fas fa-forward fa-1x m-0"
+															style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+														/>
+													</td>
+													<td>Design</td>
+													<td colspan="2">Kamdani</td>
+													<td>extra-elegant</td>
+												</tr>
+											</tbody>
+										</table>
+									</p>
+									<p
+										className="text-center mb-2 p-0"
+										style={{ color: '#000', fontFamily: 'IBM Plex Mono' }}
+									>
+										<Link to="/profiles">
+											<i
+												className="fas fa-cart-plus fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+										</Link>{' '}
+										US$:350.00{' '}
+										<Link to="/profiles">
+											<i
+												className="fas fa-cart-plus fa-1x"
+												style={{ color: 'rgba(238, 20, 111, 0.685)' }}
+											/>
+										</Link>
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div className="col-md-4 m-0 p-0">
+					<div className="col-md-4 m-0 p-1">
 						<div className="card d-block">
 							<div className="card-header" style={{ backgroundColor: '#ffe4e1' }}>
 								<ul className="nav nav-pills card-header-pills" id="myTab3" role="tablist">
@@ -359,40 +527,59 @@ class ProfileAbout extends Component {
 							</div>
 							<div class="tab-content bg-transparent" id="myTabContent">
 								<div
-									className="card-body tab-pane mb-3 active"
+									className="card-body tab-pane m-0 p-0 active"
 									style={{ color: '#696969' }}
 									id="front3"
 									role="tabpanel"
 									aria-labelledby="home-tab"
 								>
-									<h3 className="text-center">Front</h3>
+									<img className="card-image-top" src={myImg4} alt={'Logo'} title="D4Styles" />
+									<p className="m-0 p-0" style={{ color: '#000' }}>
+										{' '}
+										This is some design. This elegant piece of fabric can be your for only $350.
+										Contact us.
+									</p>
 								</div>
 								<div
-									className="card-body tab-pane mb-3"
+									className="card-body tab-pane m-0 p-0"
 									style={{ color: '#696969' }}
 									id="back3"
 									role="tabpane2"
 									aria-labelledby="profile-tab"
 								>
-									<h3 className="text-center">Back</h3>
+									<img className="card-image-top" src={myImg2} alt={'Logo'} title="D4Styles" />
+									<p className="m-0 p-0" style={{ color: '#000' }}>
+										This is some design. This elegant piece of fabric can be your for only $350.
+										Contact us.
+									</p>
 								</div>
 								<div
-									className="card-body tab-pane mb-3"
+									className="card-body tab-pane m-0 p-0"
 									style={{ color: '#696969' }}
 									id="right3"
 									role="tabpane3"
 									aria-labelledby="profile-tab"
 								>
-									<h3 className="text-center">Right</h3>
+									<img className="card-image-top" src={myImg3} alt={'Logo'} title="D4Styles" />
+									<p className="m-0 p-0" style={{ color: '#000' }}>
+										{' '}
+										This is some design. This elegant piece of fabric can be your for only $350.
+										Contact us.
+									</p>
 								</div>
 								<div
-									className="card-body tab-pane mb-3"
+									className="card-body tab-pane m-0 p-0"
 									style={{ color: '#696969' }}
 									id="left3"
 									role="tabpane4"
 									aria-labelledby="profile-tab"
 								>
-									<h3 className="text-center">Left</h3>
+									<img className="card-image-top" src={myImg1} alt={'Logo'} title="D4Styles" />
+									<p className="m-0 p-0" style={{ color: '#000' }}>
+										{' '}
+										This is some design. This elegant piece of fabric can be your for only $350.
+										Contact us.
+									</p>
 								</div>
 							</div>
 						</div>
