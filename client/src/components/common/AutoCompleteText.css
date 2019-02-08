@@ -1,0 +1,44 @@
+.AutoCompleteText-1 {
+	width: 100%;
+	border: 1px solid white;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 1px rgba(0, 0, 0, 0.18);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.73);
+}
+
+.AutoCompleteText-1 input {
+	width: 100%;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.73);
+	padding: 0px 0px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.AutoCompleteText ul {
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid rgba(238, 20, 111, 0.685);
+	border-bottom: 1px solid rgba(238, 20, 111, 0.685);
+}
+
+.AutoCompleteText ul::before {
+	content: '';
+}
+
+.AutoCompleteText li {
+	padding: 0px 0px;
+	cursor: pointer;
+	font-size: 13px;
+	font-family: 'IBM Plex Mono';
+	color: #696969;
+}
+
+.AutoCompleteText li:hover {
+	background-color: #fdd4cf;
+}

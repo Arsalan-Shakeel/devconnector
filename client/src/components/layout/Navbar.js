@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { logoutUser } from '../../actions/authActions';
 import { clearCurrentProfile } from '../../actions/profileActions';
+import AutoCompleteText from '../common/AutoCompleteText';
+import countries from '../../searchFilterData';
 import d4stylesLogo from '../../img/logo.png';
 
 class Navbar extends Component {
@@ -105,14 +107,7 @@ class Navbar extends Component {
 					<div className="collapse navbar-collapse" id="mobile-nav">
 						{isAuthenticated ? authLinks : guestLinks}
 					</div>
-					<form className="form-inline my-2 my-lg-0">
-						<input
-							className="form-control mr-sm-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-					</form>
+					<AutoCompleteText items={countries} />
 				</div>
 			</nav>
 		);
