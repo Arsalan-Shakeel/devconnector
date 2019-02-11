@@ -20,7 +20,7 @@ class Navbar extends Component {
 
 		const homeLink = (
 			<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-				<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/profiles">
+				<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/profile/arsalan-shakeel">
 					<i className="fas fa-home fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 					<strong>Home</strong>
 				</Link>
@@ -31,27 +31,24 @@ class Navbar extends Component {
 			<ul className="navbar-nav ml-auto">
 				{homeLink}
 				<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-					<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/dashboard">
+					<Link
+						className="nav-link text-monospace"
+						style={{ color: '#696969' }}
+						to="/profile/arsalan-shakeel"
+					>
 						<i className="fas fa-binoculars fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Explore</strong>
 					</Link>
 				</li>
 				<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-					<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/feed">
+					<Link
+						className="nav-link text-monospace"
+						style={{ color: '#696969' }}
+						to="/profile/arsalan-shakeel"
+					>
 						<i className="fas fa-cart-plus fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Buy</strong>
 					</Link>
-				</li>
-				<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-					<a
-						href=""
-						onClick={this.onLogoutClick.bind(this)}
-						className="nav-link text-monospace"
-						style={{ color: '#696969' }}
-					>
-						<i className="fas fa-sign-out-alt fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
-						<strong>Logout</strong>
-					</a>
 				</li>
 			</ul>
 		);
@@ -60,7 +57,11 @@ class Navbar extends Component {
 			<ul className="navbar-nav ml-auto">
 				{homeLink}
 				<li className="nav-item" style={{ backgroundColor: '#ffe4e1' }}>
-					<Link className="nav-link text-monospace" style={{ color: '#696969' }} to="/register">
+					<Link
+						className="nav-link text-monospace"
+						style={{ color: '#696969' }}
+						to="/profile/arsalan-shakeel"
+					>
 						<i className="fas fa-user-plus fa-1x" style={{ color: 'rgba(238, 20, 111, 0.685)' }} />{' '}
 						<strong>Register</strong>
 					</Link>

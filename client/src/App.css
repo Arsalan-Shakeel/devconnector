@@ -60,10 +60,16 @@ body {
 	text-transform: uppercase;
 }
 
-.nav-pills .nav-link:hover {
+/*
+This .nav-pills .nav-link:hover controls highlights on card navbar
+*/
+.nav-pills .nav-link:hover,
+.nav-pills.active,
+.nav-pills:active {
 	font-size: 14px;
-	text-transform: uppercase;
 	background-color: #fdd4cf;
+	border-top: 1px solid rgba(238, 20, 111, 0.685);
+	border-bottom: 1px solid rgba(238, 20, 111, 0.685);
 }
 
 /*
@@ -173,4 +179,15 @@ hr.hr-styling {
 #main-footer {
 	background: #fff;
 	color: rgba(238, 20, 111, 0.685);
+}
+
+table.table-bordered {
+	border: 1px solid #696969;
+	margin-top: 20px;
+}
+table.table-bordered > thead > tr > th {
+	border: 1px solid #696969;
+}
+table.table-bordered > tbody > tr > td {
+	border: 1px solid #696969;
 }

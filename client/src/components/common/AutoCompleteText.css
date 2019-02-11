@@ -16,6 +16,7 @@
 	padding: 0px 0px;
 	box-sizing: border-box;
 	outline: none;
+	background-color: rgba(0, 255, 242, 0.671);
 }
 
 .AutoCompleteText ul {
